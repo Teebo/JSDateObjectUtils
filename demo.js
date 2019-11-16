@@ -1,5 +1,4 @@
 const JSDateUtils = require('./index');
-
 const date = new Date();
 console.log('day', JSDateUtils.getDayFromDate(date));
 console.log('month', JSDateUtils.getMonthFromDate(date));
