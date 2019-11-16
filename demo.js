@@ -18,4 +18,7 @@ console.log('datetime', JSDateUtils.getDateTime({
   minutes: JSDateUtils.getMinutesFromDate(date),
 }));
 
+console.log(JSDateUtils.getDateTimeFromDate(date));
+
+
 
