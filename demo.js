@@ -10,3 +10,12 @@ console.log('time', JSDateUtils.getTime({
   minutes: JSDateUtils.getMinutesFromDate(date),
 }));
 
+console.log('datetime', JSDateUtils.getDateTime({
+  year: JSDateUtils.getYearFromDate(date),
+  month: JSDateUtils.getMonthFromDate(date),
+  day: JSDateUtils.getDayFromDate(date),
+  hours: JSDateUtils.getHoursFromDate(date),
+  minutes: JSDateUtils.getMinutesFromDate(date),
+}));
+
+
